@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <META HTTP-EQUIV="content-type" CONTENT="text/html; charset=utf-8">
+    <style>
+        p, textarea, ul {
+            font-family: Arial;
+        }
+        textarea{
+            resize: none;
+            width: 90%;
+            height: 15%;
+        }
+    </style>
+</head>
+<body>
+<ol>
+    <li>
+        <h1>Składnia teoretyczna - otoczona ramką (może być tabela jednokomórkowa,
+            konieczne wcięcia).</h1>
+
+        <textarea readonly disabled>
+    <head>
+         (...)
+         <link rel="stylesheet" type="text/css" href="style.css" />
+         (...)
+    </head></textarea>
+    </li>
+
+    <li>
+        <h1>Gdzie umieszcza się styl zewnętrzny, jaki znacznik jest odpowiedzialny oraz
+            ile razy może on wystąpić w dokumencie jako podłączenie stylu CSS?</h1>
+
+        <p>Styl zewnętrzny umieszcza się w sekcji nagłówkowej każdego dokumentu (pomiędzy
+            znacznikami &lt;head&gt; a &lt;/head&gt;), używając poniższej linii kodu:
+            Za to odpowiada znacznik &lt;link&gt;. Można dołączyć dowolną liczbę
+            zewnętrznych arkuszy stylów.
+        </p>
+    </li>
+
+    <li>
+        <h1>Najprostsza forma wstawiania stylu zewnętrznego - otoczona ramką (może być
+            tabela jednokomórkowa)?
+        </h1>
+
+        <textarea readonly disabled style="height: 5%;"><link rel="stylesheet" type="text/css" href="style.css" /></textarea>
+    </li>
+
+    <li>
+        <h1>Ile arkuszy styli może być dołączonych do jednego dokumentu HTML oraz jaką zasadę
+            należy zachować przy większej liczbie dołączanych styli?</h1>
+
+        <p>Można dołączyć dowolną liczbę zewnętrznych arkuszy stylów,
+            każdy jako osobny element &lt;link rel="stylesheet" /&gt;. </p>
+    </li>
+
+    <li>
+        <h1>Co się dzieje w przypadku konfliktów? Przez konflikt rozumiemy, gdy te same style
+            są definiowane w różnych arkuszach styli dołączonych do tego samego dokumentu.</h1>
+
+        <p>W przypadku konfliktów, ważniejsze są deklaracje z arkusza dołączonego później.</p>
+    </li>
+
+    <li>
+        <h1>Jak tworzyć i edytować pliki arkuszy za pomocą edytora tekstowego?</h1>
+
+        <p>Zewnętrzny arkusz stylów to zwykły plik tekstowy. Do tworzenia i
+            edytowania wystarczy zwykły edytor tekstu. </p>
+    </li>
+
+    <li>
+        <h1>Jak tworzyć i edytować pliki arkuszy za pomocą specjalnego edytora CSS?</h1>
+
+        <p>Można użyć dedykowanego edytora CSS.</p>
+    </li>
+
+    <li>
+        <h1>Jakie rozszerzenie ma plik będący zewnętrznym arkuszem styli?</h1>
+
+        <p>Plik będący zewnętrznym arkuszem stylów musi mieć rozszerzenie *.css</p>
+    </li>
+
+    <li>
+        <h1>Jakie są zalety zewnętrznego arkusza styli? Podaj dwie, korzystając z wyliczenia.</h1>
+
+        <ol style="font-family: Arial;">
+            <li>Wspólne cechy dla wszystkich stron w obrębie serwisu.</li>
+            <li>Modyfikacja jedynie zewnętrznego arkusza stylów, by zmienić styl na wszystkich
+                stronach, unikając konieczności zmiany każdej strony osobno.</li>
+        </ol>
+    </li>
+
+    <li>
+        <h1>Uwagi dotyczące pisania w CSS. </h1>
+
+        <ul type="disc">
+            <li>Znacznik LINK może znajdować się wyłącznie w sekcji nagłówkowej dokumentu
+                (sekcja head).</li>
+            <li>Można dołączyć dowolną liczbę zewnętrznych arkuszy stylów,
+                każdy jako osobny element &lt;link rel="stylesheet" /&gt;.</li>
+            <li>Zewnętrzny arkusz stylów to zwykły plik tekstowy. Do tworzenia i
+                edytowania wystarczy zwykły edytor tekstu.</li>
+            <li>Można użyć dedykowanego edytora CSS.</li>
+            <li>Plik będący zewnętrznym arkuszem stylów musi mieć rozszerzenie *.css</li>
+        </ul>
+    </li>
+
+</ol>
+
+</body>
+</html>
