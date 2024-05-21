@@ -1,0 +1,7 @@
+p {
+    color: #C4FFB6; /* 100+5, 150+15, 50+42 przeliczone na heksadecymalny */
+}
+
+body {
+    color: rgb(55%, 30%, 78%); /* 125+15, 50+42, 200+5 przeliczone na procenty */
+}
