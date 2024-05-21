@@ -1,0 +1,24 @@
+p#pogrubienie_czaplewski {
+    font-size: 35px; 
+    color: #7d32c8;
+}
+
+p#pochylona_czaplewski {
+    font-size: 40pt; 
+    color: #e19664;
+}
+
+p#index_gorny_czaplewski {
+    font-size: 1.5cm; 
+    color: #919164; 
+}
+
+p#index_dolny_czaplewski {
+    font-size: 2.5cm; 
+    color: rgba(45%, 200%, 220%, 1); 
+}
+
+p#mono_czaplewski {
+    font-size: 45px; 
+    color: #000000;
+}
