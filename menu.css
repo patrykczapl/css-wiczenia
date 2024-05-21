@@ -1,0 +1,20 @@
+.vertical-menu {
+  width: 200px; /* Ustaw szerokość według uznania */
+}
+
+.vertical-menu a {
+  background-color: #eee; /* Szary kolor tła */
+  color: black; /* Czarny kolor tekstu */
+  display: block; /* Wyświetlaj linki jako bloki */
+  padding: 12px; /* Dodaj padding */
+  text-decoration: none; /* Usuń podkreślenie */
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Zmień kolor tła na najechaniu */
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50; /* Kolor tła dla aktywnego linku */
+  color: white; /* Kolor tekstu dla aktywnego linku */
+}
